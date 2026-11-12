@@ -1,14 +1,32 @@
 {
   "name": "@diego4sec/char-breakdown",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Count characters in a string, broken down by alpha, numeric and other",
   "type": "module",
   "exports": "./index.js",
-  "files": ["index.js", "README.md"],
-  "engines": { "node": ">=18" },
-  "scripts": { "test": "node --test" },
-  "keywords": ["count", "characters", "alpha", "numeric", "unicode"],
+  "files": [
+    "index.js",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "test": "node --test"
+  },
+  "keywords": [
+    "count",
+    "characters",
+    "alpha",
+    "numeric",
+    "unicode"
+  ],
   "license": "MIT",
-  "repository": { "type": "git", "url": "git+https://github.com/diego4sec/package-builder.git" },
-  "publishConfig": { "registry": "https://npm.pkg.github.com" }
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/diego4sec/package-builder.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  }
 }
