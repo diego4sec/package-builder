@@ -1,19 +1,19 @@
-# @dbreitel/char-breakdown
+# @diego4sec/char-breakdown
 
 Count the characters in a string, broken down into letters, digits and everything else. Unicode-aware, zero dependencies.
 
 ## Install
 
-Published to GitHub Packages. Point the `@dbreitel` scope at it in your project's `.npmrc`:
+Published to GitHub Packages. Point the `@diego4sec` scope at it in your project's `.npmrc`:
 
 ```
-@dbreitel:registry=https://npm.pkg.github.com
+@diego4sec:registry=https://npm.pkg.github.com
 ```
 
 Then authenticate with a GitHub token that has `read:packages` and install:
 
 ```sh
-npm install @dbreitel/char-breakdown
+npm install @diego4sec/char-breakdown
 ```
 
 Requires Node 18 or newer. ESM only.
@@ -21,7 +21,7 @@ Requires Node 18 or newer. ESM only.
 ## Usage
 
 ```js
-import { countChars } from '@dbreitel/char-breakdown';
+import { countChars } from '@diego4sec/char-breakdown';
 
 countChars('ab12 !');
 // { alpha: 2, numeric: 2, other: 2, total: 6 }
